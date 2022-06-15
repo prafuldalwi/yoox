@@ -12,10 +12,17 @@
             padding: 0px;
         }
         #navbar{
+ 
+        height: 120px;
+        width: 100%;
 
-       position: fixed;
+     
+    
+       
+        /* background-color: white; */
+       /* position: fixed;
        margin: auto;
-       background-color: white;
+       background-color: white; */
 
        
         }
@@ -90,7 +97,7 @@
       .page>a:hover,.login>button:hover,#select:hover{
         text-decoration: none;
       }
-      #last_bar>a{
+      .last_bar>a{
         color:white;
         height: 29px;
       justify-content: space-evenly;
@@ -98,16 +105,17 @@
         font-weight: lighter;
         font-family:Verdana, Geneva, Tahoma, sans-serif ;
       }
-      #last_bar>a:hover{
+      .last_bar>a:hover{
         color: #76767b;
       }
-      #last_bar{
+      .last_bar{
         border: 1px solid black;
     
         background-color: black;
         text-align: center;
         align-items: center;
         padding: 10px;
+       
       
       
       }
@@ -130,19 +138,7 @@
 
 
     </style>
-    <style>
-      #body{
-        border: 1px solid red;
-        width: 80%;
-        margin: auto;
-        height: 600px;
-      }
-      #body>img{
-        width: 100%;
-        height: 100%;
-      }
-
-    </style>
+   
 </head>
 <body>
     <div id="navbar">
@@ -188,7 +184,7 @@
       
      
      </div>
-     <div id="last_bar">
+     <div class="last_bar">
         <a href="new_arrivals">NEW ARRIVALS</a>
         <a href="#mens">DESIGNERS</a>
         <a href="#kids">CLOTHING</a>
@@ -202,8 +198,6 @@
     
 
     </div>
-    <div id="body">
-      <img src="https://www.yoox.com/images/yoox80/banners/6895_1_Pride_Main_WM.jpg?634485886601286852#width=1380&height=637" alt="">
-    </div>
+
 </body>
 </html>
