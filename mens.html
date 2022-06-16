@@ -9,8 +9,142 @@
     
     <style>
 
+      /* navbar css */
+
+      #navbar{
+ 
+ height: 120px;
+ width: 100%;
+ position: fixed;
+ top: 0px;
+ background-color: white;
+ 
+ 
+
+
+
+
+ /* background-color: white; */
+/* position: fixed;
+margin: auto;
+background-color: white; */
+
+
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+     font-weight: bold;
+     font-family: 'cormorant garamond',serif;
+ }
+ 
+
+
+
+ .section{
+     display: flex;
+     justify-content: space-around;
+     
+ }
+
+.section2{
+
+ height: 50%;
+ display: flex;
+ justify-content: space-around   ;
+ align-items: center;
+ padding-left: 11%;
+ padding-right: 11%;
+
+}
+
+.search-container button{
+
+background-color: white;
+border: none;
+
+cursor: pointer;
+}
+.search-container>a{
+margin-left: 50px;
+font-size: 25px;
+
+}
+i{
+ font-size: 20px;
+}
+.section2>div>a{
+ padding: 10px;
+ 
+
+}
+.section2>div:first-child>a:hover{
+ background-color: #f2f2f6;
+
+}
+.login>a{
+ margin-left: 30px;
+}
+/* h1{
+ color:
+ #4f46e5 ;
+} */
+.page>select{
+ border: none;
+ text-align: center;
+
+cursor: pointer;
+
+}
+.page>a,.login>button,#select{
+ text-decoration: underline;
+}
+.page>a:hover,.login>button:hover,#select:hover{
+ text-decoration: none;
+}
+.last_bar>a{
+ color:white;
+ height: 29px;
+justify-content: space-evenly;
+ margin-left: 25px;
+ font-weight: lighter;
+ font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ 
+}
+.last_bar>a:hover{
+ color: #76767b;
+}
+.last_bar{
+ border: 1px solid black;
+
+ background-color: black;
+ text-align: center;
+ align-items: center;
+ padding: 10px;
+ 
+
+
+}
+.logoimg{
+ width: 100px;
+ padding-bottom: 20px;
+}
+.login>button{
+border: none;
+margin-left: 13px;
+
+}
+.login>button:hover{
+background-color: #e6e6f7;
+cursor: pointer;
+}
+
+      /* navbar css */
+
         body {
             font-family: 'Cormorant Garamond', serif;
+            background-color: #f3f3f3;
         }
 
         #home{
@@ -22,12 +156,19 @@
 
         #smallbox {
             
-            color: black;
+           
+            /* border: 1px solid red; */
             background-color: white;
-            width: 100%;
-            display: wrap;
-            
+            margin-left: 10px;
+            width: 30%;
+            top: 550px;
+            position: abs;
+            padding-left: 20px;
+            height: 25%;
+
         }
+            
+        
 
         #box2 {
             /* border: 1px solid red; */
@@ -69,6 +210,9 @@
             grid-template-rows: 570px;
             gap: 15px;
             margin-bottom: 10%;
+            padding: 10px;
+            background-color: #f3f3f3;
+            box-shadow: 90px;
 
         }
 
@@ -109,6 +253,13 @@
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 570px;
             gap: 15px;
+            padding: 10px;
+            background-color: #f3f3f3;
+            box-shadow: 90px;
+            
+            
+
+            
 
         }
 
@@ -136,11 +287,107 @@
             align-items: center;
             
             display: flex;
+            
 
 
         }
         .arr {
             text-align: center;
+        }
+
+        #box6>div{
+            width: 28%;
+            height: 170px;
+            padding-left: 25px;
+            margin-left: 10px;
+            background-color: white;
+            
+            position: absolute;
+            
+            
+
+
+        }
+
+        #box7 {
+        
+            display: grid;
+            
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 570px;
+            gap: 15px;
+            padding: 10px;
+            background-color: #f3f3f3;
+            box-shadow: 90px;
+            margin-top: 15%;
+
+        }
+
+        .sbox3 {
+            /* border: 1px solid red; */
+            background-color: white;
+            margin-left: 10px;
+            width: 90%;
+            top: 260%;
+            position: absolute;
+            padding-left: 20px;
+
+        }
+
+        .sbox4 {
+            /* border: 1px solid red; */
+            background-color: white;
+            margin-left: 60%;
+            width: 70%;
+            top: 260%;
+            position: absolute;
+            padding-left: 100px;
+
+        }
+
+        .sbox5 {
+
+            /* border: 1px solid red; */
+            left: 16%;
+            
+            background-color: white;
+            /* margin-right: 30%; */
+            width: 90%;
+            bottom: -640%;
+            position: absolute;
+            
+            
+
+        }
+
+        .sbox6 {
+             /* border: 1px solid red; */
+            background-color: white;
+            right: 10%;
+            width: 50%;
+            bottom: -580%;
+            position: absolute;
+            padding-left: 100px;
+            text-align: center;
+            padding: 30px;
+            height: 90px;
+
+        }
+
+        .brands1 {
+            /* border: 1px solid red; */
+            width: 100%;
+            background-color: white;
+            box-shadow: 30px;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            height: 90%;
+            
+        }
+
+        #brands:hover{
+          background-color: rgb(173, 208, 231);
         }
         
 
@@ -153,13 +400,77 @@
     </style>
 </head>
 <body>
+
+  <!-- navbar -->
+
+  <div id="navbar">
+    <div class="section">
+       <div class="page">
+           <select name="India" id="select">
+               <option value="india">India</option>
+               <option value="Albenia">Albenia</option>
+               <option value="Aergentina">Aergentina</option>
+               <option value="Australia">Australia</option>
+               <option value="Colabmia">Colabmia</option>
+               <option value="Egypt">Egypt</option>
+           </select>
+           <a href="customercare">CUSTOMER CARE</a>
+
+       </div>
+        <div class="login" >
+           <button><i class="fa fa-pencil"></i><a href="./signup.html"></a> Register</button>
+           <!-- <a href="rigister"><i class="fa fa-pencil"></i> REGISTER</a> -->
+           <!-- <a href="login"> <i class="fa fa-lock"></i>  LOGIN</a> -->
+           <button><i class="fa fa-lock"></i> LOGIN</button>
+        </div>
+    
+    </div>
+    <div class="section2">
+       <div>
+        <a href="./womens.html">WOMENS</a>
+        <a href="./mens.html">MENS</a>
+        <a href="./kids.html">KIDS</a>
+        <a href="./design.html">DISIGN+ART</a>
+       </div>
+       <a class="logoimg" href="./mens.html"><img src="https://www.yoox.com/media/yoox16/header/yoox-logo-p.svg" alt=""></a>
+       <div class="search-container">
+           <!-- <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search"> -->
+            <!-- <button type="submit"><i class="fa fa-search" style="font-size: 25px;"></i></button> -->
+            <a href="search"><i class="fa fa-search"></i></a>
+            <a href="wishlist"><i class="fa fa-heart-o"></i></a>
+            <a href="bag"><i class="fa fa-shopping-bag"></i></a>
+           <!-- </form> -->
+
+         </div>
+     
+    
+    </div>
+    <div class="last_bar">
+       <a href="new_arrivals">NEW ARRIVALS</a>
+       <a href="#mens">DESIGNERS</a>
+       <a href="#kids">CLOTHING</a>
+       <a href="#disign">SHOES</a>
+       <a href="accessories">ACCESSORIES & BAGS</a>
+       <a href="yoox">YOOXGEN</a>
+       <a href="collebs">COLLABORATIONS</a>
+       <a href="bestoffers">BEST OFFERS</a>
+    </div>
+
+    
+    
+   
+
+   </div>
+
+  <!-- navbar end -->
     <div>
         <img id="home" src="https://www.yoox.com/images/yoox80/banners/6824_1_Trendvacation_WM_Main.jpg?634485886869569819&impolicy=cropDefault&width=960&height=510" alt="">
         <div id="smallbox">
             <h1>Out of Office</h1>
             <h3>Vibrante Vacation style</h3>
-            <a href="https://www.yoox.com/us/project/trend_men">Discover the trend</a>
-            <a href="https://www.yoox.com/us/men/shoponline?dept=mmrc_2206trndvbrnt">Shop now</a>
+            <a href="https://www.yoox.com/us/project/trend_men">Discover The Trend</a>
+            <a href="https://www.yoox.com/us/men/shoponline?dept=mmrc_2206trndvbrnt">Shop Now</a>
            </div>
     </div>
 
@@ -167,11 +478,11 @@
         <div>
             <a href="https://www.yoox.com/us/men/shoponline?dept=mmrc_2206fcsnccssrs"> <img src="https://www.yoox.com/images/yoox80/banners/6824_4_FocusOnAccessories_M_HL.jpg?634485886869569819#width=430&height=600" alt=""></a>
             <!-- <img src="https://www.yoox.com/images/yoox80/banners/6824_4_FocusOnAccessories_M_HL.jpg?634485886869569819#width=430&height=600" alt=""> -->
-         <h1>BEAT THE HEAT</h1>
-         <h2>Stay Cool With this Accessories</h2>
+         <h2>BEAT THE HEAT</h2>
+         <h3 style="color: grey;">Stay Cool With this Accessories</h3>
          <a style="color: black;" href="https://www.yoox.com/us/men/shoponline?dept=mmrc_2206fcsnccssrs"><h2>SHOP NOW</h2></a>
         </div>
-        <div>
+        <div class="brands1">
             <h2 id="brands" >DESIGNER</h2>
             <a id="brands" href="https://www.yoox.com/us/men/shoponline/dolce%20&%20gabbana_md#/dept=men&Md=25"><h2>DOLCE AND GABBANA</h2></a>
             <a id="brands" href="https://www.yoox.com/us/men/shoponline/dsquared2_md#/dept=men&Md=378"><h2>DSQUARED2</h2></a>
@@ -189,8 +500,8 @@
         </div>
         <div>
             <img src="https://www.yoox.com/images/yoox80/banners/5628_1_Multiform_HL.gif?634485886869569819#width=430&height=600" alt="">
-          <h1>THE MULTI FORM* ARTIST</h1>
-          <h2>Discover the exclusive designs</h2>
+          <h2>THE MULTI FORM* ARTIST</h2>
+          <h3 style="color: grey;">Discover the exclusive designs</h3>
           <a style="color: black;" href="https://www.yoox.com/us/project/multiform_artists"><h2>SHOP NOW</h2></a>
         </div>
     </div>
@@ -255,7 +566,7 @@
 
    <div class="arr">
     <h1>ONE OF A KIND</h1>
-    <a href="https://www.yoox.com/us/men/shoponline#/dept=men_oneofthekind">VIEW ALL</a>
+    <a style="color: black;" href="https://www.yoox.com/us/men/shoponline#/dept=men_oneofthekind">VIEW ALL</a>
 
    </div>
     <div id="box5">
@@ -294,17 +605,51 @@
 
     <div id="box6">
         <a id="imgbox" href="https://www.yoox.com/us/men/shoponline?dept=gm8byooxss"> <img src="https://www.yoox.com/images/yoox80/banners/6833_5_8byoox_SS22_Special.jpg?634485886869569819#width=930&height=660" alt=""></a>
-        <div>
+        <div class="sbox5">
             <h1>WHERE PEOPLE DANCE</h1>
             <p>The new SS22 collection from 8 by YOOX</p>
-            <a href="https://www.yoox.com/us/men/shoponline?dept=gm8byooxss">SHOP NOW</a>
-            <a href="https://www.yoox.com/us/project/8byYOOX_SS22">GET INSPIRED</a>
+            <a style="color: black;" href="https://www.yoox.com/us/men/shoponline?dept=gm8byooxss">SHOP NOW</a>
+            <a style="color: black;" href="https://www.yoox.com/us/project/8byYOOX_SS22">GET INSPIRED</a>
         </div>
-             
-        
-        <div></div>
+
+        <div class="sbox6">
+            <a href="https://www.yoox.com/us/12792295KA/item#cod10=12792295KA&sizeId=-1"> <img src="https://www.yoox.com/images/items/12/12792295KA_14_f.jpg?impolicy=crop&width=306&height=390" alt=""></a>
+             <h2>8 By YOOX</h2>
+             <p>Patterned Shirt</p>
+             <h3>$100.00</h3>
+
+        </div>
+
+        <div id="box7">
+            <div>
+                <a href="https://www.yoox.com/us/project/livingroom"> <img src="https://www.yoox.com/images/yoox80/banners/5460_1_Living_Bottom_WM.jpg?634485886869569819#width=690&height=637" alt=""></a>
+           
+              <div class="sbox3">
+                <h1>CRAZY MOOD</h1>
+                <p>The new photoshoot by Living Corriere</p>
+                <a style="color: black;" href="https://www.yoox.com/us/project/livingroom">DISCOVER MORE</a>
+              </div>
+           
+            </div>
+            <div>
+                <a href="https://www.yoox.com/us/project/trend_men"> <img src="https://www.yoox.com/images/yoox80/banners/6824_1_Trendvacation_HalfBottom_M.jpg?634485886869569819#width=690&height=637" alt=""></a>
+                <div class="sbox4">
+                    <h1>OUT OF OFFICE</h1>
+                    <p>Vibrante vacation style</p>
+                    <a style="color: black;" href="https://www.yoox.com/us/project/livingroom">DISCOVER MORE</a>
+                    <a style="color: black;" href="https://www.yoox.com/us/men/shoponline?dept=mmrc_2206trndvbrnt">SHOP NOW</a>
+                  </div>
+            </div>
+        </div>
+       
     </div>
-   
+
+
+
+    
+
+    
+    
 
     
 
