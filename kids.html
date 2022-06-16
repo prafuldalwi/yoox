@@ -6,17 +6,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Kids</title>
     <style>
         * {
             margin: 0;
             padding: 0;
-
         }
+        #navbar{
+ 
+ height: 80px;
+ width: 100%;
+ background-color: white;;
+ position: sticky;
+ top: 0;
+/* position: fixed;
+margin: auto;
+ }
+ a{
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+     font-weight: bold;
+     font-family: 'cormorant garamond',serif;
+ }
+ .section2>div>a:hover{
+  /* background-color: #ccc; */
+ }
 
-        /* body {
+
+
+ .section{
+     display: flex;
+     justify-content: space-around;
+     padding-bottom: 10px;
+ }
+
+.section2{
+
+ height: 50%;
+ display: flex;
+ justify-content: space-around   ;
+ align-items: center;
+ padding-left: 11%;
+ padding-right: 11%;
+}
+
+.search-container button{
+
+background-color: white;
+border: none;
+
+cursor: pointer;
+}
+.search-container>a{
+margin-left: 50px;
+font-size: 25px;
+
+}
+i{
+ font-size: 20px;
+}
+.section2>div>a{
+ padding: 10px;
+ 
+
+}
+.section2>div:first-child>a:hover{
+ background-color: #f2f2f6;
+}
+.login>a{
+ margin-left: 30px;
+}
+h1{
+ color:
+ #4f46e5 ;
+}
+.page>select{
+ border: none;
+ text-align: center;
+
+cursor: pointer;
+
+}
+.page>a,.login>button,#select{
+ text-decoration: underline;
+}
+.page>a:hover,.login>button:hover,#select:hover{
+ text-decoration: none;
+}
+.last_bar>a{
+ color:white;
+ height: 29px;
+justify-content: space-evenly;
+ margin-left: 25px;
+ font-weight: lighter;
+ font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.last_bar>a:hover{
+ color: #76767b;
+}
+.last_bar{
+ border: 1px solid black;
+
+ background-color: black;
+ text-align: center;
+ align-items: center;
+ padding: 10px;
+
+
+
+}
+.section2>a>img{
+ width: 75px;
+}
+.login>button{
+border: none;
+margin-left: 13px;
+
+}
+.login>button:hover{
+background-color: #e6e6f7;
+cursor: pointer;
+}
+        body {
             font-family: 'Cormorant Garamond', serif;
-        } */
+        }
 
         #for-all {
             width: 100%;
@@ -34,7 +149,7 @@
             height: 35px;
             align-items: center;
             position: sticky;
-            top: 0px;
+            top: 80px;
         }
 
         #second_nav>a>p {
@@ -47,7 +162,6 @@
             margin-right: 15px;
             font-size: 12px;
         }
-
         .banner>a>img {
             width: 100%;
             margin-bottom: -10px;
@@ -60,7 +174,7 @@
             margin-left: 10px;
             background-color: #fff;
             position: absolute;
-            top: 96%;
+            top: 109%;
         }
 
         .banner>.details>h2 {
@@ -89,7 +203,7 @@
             margin-left: 10px;
             background-color: #fff;
             position: absolute;
-            top: 751%;
+            top: 764%;
         }
 
         .banner>.details2>h2 {
@@ -277,6 +391,51 @@
 
 <body>
     <div id="for-all">
+        <div id="navbar">
+            <div class="section">
+               <div class="page">
+                   <select name="India" id="select">
+                       <option value="india">India</option>
+                       <option value="Albenia">Albenia</option>
+                       <option value="Aergentina">Aergentina</option>
+                       <option value="Australia">Australia</option>
+                       <option value="Colabmia">Colabmia</option>
+                       <option value="Egypt">Egypt</option>
+                   </select>
+                   <a href="customercare">CUSTOMER CARE</a>
+       
+               </div>
+                <div class="login" >
+                   <button><i class="fa fa-pencil"></i> Register</button>
+                   <!-- <a href="rigister"><i class="fa fa-pencil"></i> REGISTER</a> -->
+                   <!-- <a href="login"> <i class="fa fa-lock"></i>  LOGIN</a> -->
+                   <button><i class="fa fa-lock"></i> LOGIN</button>
+                </div>
+            
+            </div>
+            <div class="section2">
+               <div>
+                <a href="#WOMENS">WOMENS</a>
+                <a href="#mens">MENS</a>
+                <a href="#kids">KIDS</a>
+                <a href="#art">DISIGN+ART</a>
+               </div>
+               <a href=""><img src="https://www.yoox.com/media/yoox16/header/yoox-logo-p.svg" alt=""></a>
+               <div class="search-container">
+                   <!-- <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search"> -->
+                    <!-- <button type="submit"><i class="fa fa-search" style="font-size: 25px;"></i></button> -->
+                    <a href="search"><i class="fa fa-search"></i></a>
+                    <a href="wishlist"><i class="fa fa-heart-o"></i></a>
+                    <a href="bag"><i class="fa fa-shopping-bag"></i></a>
+                   <!-- </form> -->
+       
+                 </div>
+             
+            
+            </div>      
+           </div>
+
         <div id="second_nav">
            <a href=""><p>0-24 MONTHS</p></a> 
            <a href=""><p>3-8 YEARS</p></a> 
