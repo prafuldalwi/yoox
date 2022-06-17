@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
 
     <title>Womens</title>
 
@@ -354,6 +358,112 @@ background-color: white; */
             height: 33%;
             
         } */
+
+        /* foooter css */
+        #help-section {
+            width: 70%;
+            margin: auto;
+            margin-top: 350px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 400px;
+            column-gap: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            width: 20%;
+            height: 1px;
+            margin: auto;
+            background-color: black;
+            margin-top: 15px;
+        }
+
+        #help-section>div>a {
+            text-decoration: none;
+        }
+
+        #help-section>div>a>p {
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+        #newsletter {
+            background-color: white;
+            width: 290px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 25%;
+        }
+
+        #email-input {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        #connect {
+            width: 72%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #connect>div:first-child {
+            width: 38%;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 15px;
+        }
+
+        #connect>div:last-child {
+            width: 37%;
+            display: flex;
+            font-size: 15px;
+        }
+
+        #connect>div>a {
+            text-decoration: none;
+        }
+
+        #download {
+            margin-left: 20px;
+        }
+
+        #hr-bottom {
+            width: 100%;
+            height: 1px;
+            background-color: white;
+        }
+
+        #bottom-last {
+
+            width: 100%;
+            height: 120px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        #bottom-last>a:first-child>p {
+            color: white;
+            padding-top: 3%;
+            padding-bottom: 1%;
+        }
+
+        #bottom-last>a:last-child>p {
+            color: grey;
+        }
+
+        #bottom-last>a {
+            text-decoration: none;
+        }
+
+        /* footer css end */
     </style>
 </head>
 
@@ -377,10 +487,11 @@ background-color: white; */
 
             </div>
             <div class="login">
-                <button><i class="fa fa-pencil"></i><a href="./signup.html"></a> Register</button>
+                <a href="ragister.html">Ragister & Login</a>
+                <!-- <button><i class="fa fa-pencil"></i><a href="./signup.html"></a> Register</button> -->
                 <!-- <a href="rigister"><i class="fa fa-pencil"></i> REGISTER</a> -->
                 <!-- <a href="login"> <i class="fa fa-lock"></i>  LOGIN</a> -->
-                <button><i class="fa fa-lock"></i> LOGIN</button>
+                <!-- <button><i class="fa fa-lock"></i> LOGIN</button> -->
             </div>
 
         </div>
@@ -388,10 +499,10 @@ background-color: white; */
             <div>
                 <a href="./womens.html">WOMENS</a>
                 <a href="./mens.html">MENS</a>
-                <a href="./kids.html">KIDS</a>
+                <a href="./kids.html">KIDS</a>  
                 <a href="./design.html">DISIGN+ART</a>
             </div>
-            <a class="logoimg" href="./mens.html"><img src="https://www.yoox.com/media/yoox16/header/yoox-logo-p.svg"
+            <a class="logoimg" href="./homepage.html"><img src="https://www.yoox.com/media/yoox16/header/yoox-logo-p.svg"
                     alt=""></a>
             <div class="search-container">
                 <!-- <form action="/action_page.php">
@@ -616,7 +727,7 @@ background-color: white; */
         <div>
             <a style="color: black;" href="https://www.yoox.com/us/13780367GR/item#cod10=13780367GR&sizeId=3"> <img
                     src="https://www.yoox.com/images/items/13/13780367GR_14_f.jpg?impolicy=crop&width=306&height=390"
-                    alt="">
+                    alt=""><div>
                 <h2>PAUL & JOE</h2>
                 <p style="color: rgb(105, 94, 94);">Midi-skiri</p>
                 <h4 style="color: rgb(105, 94, 94);">
@@ -625,6 +736,7 @@ background-color: white; */
                 </h4>
                 <h4>$163.00</h4>
             </a>
+            </div>
 
         </div>
 
@@ -725,10 +837,164 @@ background-color: white; */
             </a>
         </div>
     </div>
+    
+<!-- footer section -->
+<div id="help-section">
+    <div>
+        <h3>NEW TO YOOX</h3>
+        <hr>
+        <a href="">
+            <p>Shipping times & costs</p>
+        </a>
+        <a href="">
+            <p>Payments and web security</p>
+        </a>
+        <a href="">
+            <p>Product quality</p>
+        </a>
+        <a href="">
+            <p>Track your order</p>
+        </a>
+        <a href="">
+            <p>Returns & refunds</p>
+        </a>
+        <a href="">
+            <p>FAQs</p>
+        </a>
+        <a href="">
+            <p>Size Guide</p>
+        </a>
+    </div>
+    <div>
+        <h3>HELP</h3>
+        <hr>
+        <a href="">
+            <p>Shipping times & costs</p>
+        </a>
+        <a href="">
+            <p>Payments and web security</p>
+        </a>
+        <a href="">
+            <p>Product quality</p>
+        </a>
+        <a href="">
+            <p>Track your order</p>
+        </a>
+        <a href="">
+            <p>Returns & refunds</p>
+        </a>
+        <a href="">
+            <p>FAQs</p>
+        </a>
+        <a href="">
+            <p>Size Guide</p>
+        </a>
+    </div>
+    <div id="newsletter">
+        <h3>YOOX NEWS</h3>
+        <a href="">
+            <p>Sign up for the newsletter
+                and discover the latest arrivals and promotions</p>
+        </a>
+        <input type="email" placeholder="INSERT YOUR E-MAIL ADDRESS" id="email-input">
+        <a href="">
+            <p>Product quality</p>
+        </a>
+        <a href="">
+            <p>Track your order</p>
+        </a>
+        <a href="">
+            <p>Returns & refunds</p>
+        </a>
+        <a href="">
+            <p>FAQs</p>
+        </a>
+        <a href="">
+            <p>Size Guide</p>
+        </a>
+    </div>
+    <div>
+        <h3>MYOOX</h3>
+        <hr>
+        <a href="">
+            <p>Shipping times & costs</p>
+        </a>
+        <a href="">
+            <p>Payments and web security</p>
+        </a>
+        <a href="">
+            <p>Product quality</p>
+        </a>
+        <a href="">
+            <p>Track your order</p>
+        </a>
+        <a href="">
+            <p>Returns & refunds</p>
+        </a>
+        <a href="">
+            <p>FAQs</p>
+        </a>
+        <a href="">
+            <p>Size Guide</p>
+        </a>
+    </div>
+    <div>
+        <h3>ABOUT US</h3>
+        <hr>
+        <a href="">
+            <p>Shipping times & costs</p>
+        </a>
+        <a href="">
+            <p>Payments and web security</p>
+        </a>
+        <a href="">
+            <p>Product quality</p>
+        </a>
+        <a href="">
+            <p>Track your order</p>
+        </a>
+        <a href="">
+            <p>Returns & refunds</p>
+        </a>
+        <a href="">
+            <p>FAQs</p>
+        </a>
+        <a href="">
+            <p>Size Guide</p>
+        </a>
+    </div>
+</div>
+<hr id="hr-bottom">
 
-
+<div id="connect">
+    <div>
+        <p>CONNECT WITH US</p>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-twitter"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-youtube"></i></a>
+        <a href=""><i class="bi bi-pinterest"></i></a>
+        <a href=""><i class="bi bi-tiktok"></i></a>
 
     </div>
+    <div>
+        <a href=""><i class="bi bi-tablet"></i></i></a>
+        <a href="">
+            <p id="download">DOWNLOAD THE APP FOR iOS / ANDROID</p>
+        </a>
+    </div>
+</div>
+<div id="bottom-last">
+    <a href="">
+        <p>Powered by YOOX NET-A-PORTER GROUP - COPYRIGHT <span>&copy</span> 2000-2022 YOOX NET-A-PORTER GROUP
+            S.P.A - ALL RIGHTS RESERVERD - SIAE LICENCE # 401/1/526</p>
+    </a>
+    <a href="">
+        <p>LEGAL AREA / PRIVACY POLICY</p>
+    </a>
+</div>
+</div>
+
 </body>
 
 </html>
